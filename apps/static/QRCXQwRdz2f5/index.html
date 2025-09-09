@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=240, height=320, user-scalable=no, initial-scale=1.0">
+    <title>Rabbit Flashlight</title>
+  <script type="module" crossorigin src="./assets/main-J_hI8oLu.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-Dc95JzyL.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Color selection menu (top right) -->
+        <div class="color-menu" id="colorMenu">
+            <div class="color-wheel-container">
+                <canvas id="colorWheel" width="120" height="120"></canvas>
+                <div class="color-wheel-center" id="colorWheelCenter"></div>
+            </div>
+        </div>
+        
+        <!-- Main flashlight area -->
+        <div class="flashlight-area" id="flashlightArea">
+            <!-- Flashlight icon -->
+            <div class="flashlight-icon">
+                <svg width="60" height="60" viewBox="0 0 24 24" fill="none">
+                    <path d="M8 2L16 2C17.1 2 18 2.9 18 4L18 6L20 8L20 20C20 21.1 19.1 22 18 22L6 22C4.9 22 4 21.1 4 20L4 8L6 6L6 4C6 2.9 6.9 2 8 2Z" stroke="currentColor" stroke-width="2" fill="currentColor"/>
+                    <circle cx="12" cy="14" r="3" fill="#000"/>
+                    <path d="M8 6L16 6" stroke="#000" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="app-title">Rabbit Flashlight</div>
+        </div>
+        
+        <!-- Brightness slider (bottom) -->
+        <div class="brightness-controls">
+            <div class="brightness-slider-container">
+                <input type="range" id="brightnessSlider" class="brightness-slider" 
+                       min="0" max="4" step="1" value="4">
+                <div class="brightness-labels">
+                    <span>10%</span>
+                    <span>25%</span>
+                    <span>50%</span>
+                    <span>75%</span>
+                    <span>100%</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Credits -->
+        <div class="credits">
+            <span>by Atomlabor.de</span>
+        </div>
+    </div>
+</body>
+</html>
