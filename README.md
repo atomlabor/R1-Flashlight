@@ -1,6 +1,8 @@
 <div align="center">
   <img src="Flashlight.png" alt="R1-Flashlight App - Flashlight for Rabbit R1" width="400" />
 </div>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E51DRUM)
+
 
 # R1-Flashlight 🔦
 
